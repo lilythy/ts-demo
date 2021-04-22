@@ -1,4 +1,5 @@
 const path = require("path");
+
 module.exports = {
   // 1. 影响提示, 2. 文件大小 development/production
   // mode: " local, dev, production",
