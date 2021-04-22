@@ -1,0 +1,42 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "ts demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --port 3004 --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "test": "jest --config=jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilythy/ts-demo.git"
+  },
+  "author": "lilythy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilythy/ts-demo/issues"
+  },
+  "homepage": "https://github.com/lilythy/ts-demo#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-jest": "^24.9.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.24",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
